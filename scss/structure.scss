@@ -1,0 +1,37 @@
+/* ANDRADE
+    N315 FALL 2022
+    ASSIGNMENT 3 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%;
+   }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
+    font-family: "helvetica";
+   }
+
+   @font-face {
+    font-family: "helvetica";
+    src: url(../assets/fonts/HelveticaNeueLTStd-Md.otf);
+   }
+   //sets injection area to 100%
+   #app {
+    min-height: 100%;
+   }
+
+   
+   
+
+
+   
+  

@@ -1,0 +1,93 @@
+//STYLING FOR ABOUT PAGE
+////MONITOR
+@media screen and (min-width: 1025px) {
+.aboutContainer {
+   
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.rightContent {
+    width: 45%;
+    
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    h1 {
+        font-size: 50px;
+       
+        width: 100%;
+    }
+}
+
+
+.rightContent img{
+ 
+    width: fit-content;
+    
+}
+}
+
+//TABLET
+@media screen and (max-width: 1024px) {
+    .aboutContainer {
+       
+        min-height: 100%;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .rightContent {
+        width: 60%;
+        
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        h1 {
+            font-size: 30px;
+            
+            width: 100%;
+        }
+    }
+
+}
+
+
+//PHONE
+@media screen and (max-width: 600px) {
+
+    .aboutContainer {
+        //background-color: chartreuse;
+        min-height: 100%;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .rightContent {
+        width: 80%;
+        background-color: pink;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        h1 {
+            font-size: 30px;
+            //background-color: aquamarine;
+            width: 100%;
+        }
+    }
+    
+}

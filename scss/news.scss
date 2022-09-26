@@ -1,0 +1,122 @@
+/* NEWS STYLING  */
+.newHeadtxt {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.newsContainer {
+    //background-color: chocolate;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    //margin-left: 15%;
+    //margin-right: 15%;
+    
+    
+}
+
+
+
+
+//LARGE SCREEN
+@media screen and (min-width: 1025px) {
+    div.newsText {
+      max-width: 50%;
+      font-size: 22px;
+     // background-color: chartreuse;
+    }
+
+    .newsImage {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 90%;
+        min-height: 100%;
+        //background-color: aqua; 
+    }
+
+    .newsImage img {
+        //background-color: blueviolet;
+        width: 48%;
+        //max-width: 630px;
+        
+    }
+    .newsImage img {
+        //background-color: blueviolet;
+        max-width: 630px;
+        
+    }
+  }
+
+
+
+//TABLET
+@media screen and (max-width: 1024px) {
+    div.newsText {
+      max-width: 70%;
+      font-size: 22px;
+     
+    }
+
+    .newsImage {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 90%;
+        min-height: 100%;
+        //background-color: aqua;
+        margin-bottom: 180px;
+        
+    }
+
+    .newsImage img {
+        //background-color: blueviolet;
+        min-width: 40%;
+    }
+  }
+
+//PHONE SCREEN
+@media screen and (max-width: 600px) {
+    div.newsText {
+      width: 100%;
+      font-size: 18px;
+    }
+
+    .newsImage {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        min-width: 90%;
+        //background-color: rgb(255, 238, 0);
+        margin-bottom: 80px;
+        
+    }
+
+    .newsImageTall {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        //width: 50%;
+        //background-color: rgb(255, 238, 0);
+        margin-bottom: 80px;
+        
+    }
+
+    img {
+        min-width: 300px;
+    }
+}
+
+
+
